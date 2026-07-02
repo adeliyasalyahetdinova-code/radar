@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Радар Школьника - Активности Для Школьников</title>
+    <link rel="stylesheet" href="activities.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+
+        <div class="logo">
+            <span class="logo-text">Радар Школьника</span>
+        </div>
+
+        <nav class="nav">
+            <a href="/index.html">Главная</a>
+            <a href="/activities.html">Активности</a>
+            <a href="/volunteer.html">Волонтёрство</a>
+        </nav>
+
+    </div>
+</header>
+
+<section class="activities-page">
+
+    <!-- СВЕРХУ -->
+    <div class="activities-top">
+        <h1>Активности для тебя</h1>
+
+        <input
+            type="text"
+            class="search"
+            placeholder="Поиск активности..."
+        >
+    </div>
+
+    <!-- ГЛАВНЫЙ LAYOUT (ВАЖНО!) -->
+    <div class="activities-layout">
+
+        <aside class="filters">
+
+            <h2>Фильтры</h2>
+
+            <div class="filter-group">
+                <h3>Тип</h3>
+                <label><input type="checkbox"> Олимпиада</label>
+                <label><input type="checkbox"> Конкурс</label>
+                <label><input type="checkbox"> Исследование</label>
+                <label><input type="checkbox"> Волонтёрство</label>
+                <label><input type="checkbox"> Проект</label>
+                <label><input type="checkbox"> Курс</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Сфера</h3>
+                <label><input type="checkbox"> STEM</label>
+                <label><input type="checkbox"> Экономика и финансы</label>
+                <label><input type="checkbox"> Медицина и биология</label>
+                <label><input type="checkbox"> Искусство и культура</label>
+                <label><input type="checkbox"> Социальные науки</label>
+            </div>
+
+        </aside>
+
+        <main class="activities-content">
+
+            <div id="cards-container" class="cards-container"></div>
+
+        </main>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+    <p>© 2026 Радар Школьника. Все права защищены.</p>
+</footer>
+
+
+
+
+ <div id="modal" class="modal hidden">
+  <div class="modal-content">
+
+    <span id="closeModal" class="close">&times;</span>
+
+    <h2 id="modalTitle"></h2>
+
+    <div id="modalFields" class="modal-fields"></div>
+
+    <div id="modalTypes" class="modal-types"></div>
+
+    <p id="modalDescription"></p>
+
+    <div class="modal-left">
+      <a id="modalLink" class="modal-link" target="_blank">
+        <span class="modal-link-arrow">➜</span>
+        Перейти на сайт
+      </a>
+    </div>
+
+  </div>
+ </div>
+
+
+   <script src="activities.js"></script>
+ 
+</body>
+</html>
