@@ -231,3 +231,50 @@ font-size: 12px;
   border: 5px solid blue;
 }
 
+/* ========================= */
+/* Планшеты */
+/* ========================= */
+
+@media (max-width:900px){
+
+.activities-layout{
+    flex-direction:column;
+}
+
+.filters{
+    width:100%;
+}
+
+}
+
+/* ========================= */
+/* Телефоны */
+/* ========================= */
+
+@media (max-width:600px){
+
+.activities-page{
+    padding:0 20px;
+}
+
+.activities-title{
+    font-size:30px;
+}
+
+.search{
+    width:100%;
+}
+
+.cards-container{
+    grid-template-columns:1fr;
+}
+
+.card{
+    padding:20px;
+}
+
+.card-title{
+    font-size:20px;
+}
+
+}
