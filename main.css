@@ -211,3 +211,70 @@ img {
 html {
   scroll-behavior: smooth;
 }
+
+
+/* ========================= */
+/* Планшеты */
+/* ========================= */
+
+@media (max-width: 900px) {
+
+.container{
+    padding: 0 20px;
+}
+
+.hero__title{
+    font-size:42px;
+}
+
+.audience__container{
+    flex-direction:column;
+}
+
+.nav{
+    gap:15px;
+}
+
+}
+
+/* ========================= */
+/* Телефоны */
+/* ========================= */
+
+@media (max-width:600px){
+
+.header .container{
+    flex-direction:column;
+    gap:20px;
+}
+
+.nav{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero{
+    padding:60px 20px;
+}
+
+.hero__title{
+    font-size:32px;
+}
+
+.hero__subtitle{
+    font-size:15px;
+}
+
+.audience{
+    padding:60px 20px;
+}
+
+.volunteer{
+    padding:60px 20px;
+}
+
+.footer{
+    font-size:14px;
+}
+
+}
