@@ -1232,17 +1232,6 @@
     "link": "https://www.societyforscience.org/isef"
   },
   {
-    "title": "Google Science Fair (архив)",
-    "fields": ["STEM"],
-    "types": ["Исследование"],
-    "shortDescription": "Известный международный конкурс научных проектов школьников.",
-    "fullDescription": "Исторически один из самых известных мировых конкурсов исследований. В настоящее время новые наборы не проводятся, однако конкурс остаётся значимой частью истории школьной науки.",
-    "grade": "7–11",
-    "format": "Онлайн",
-    "price": "Бесплатно",
-    "link": "https://www.googlesciencefair.com"
-  },
-  {
     "title": "FIRST Global Challenge",
     "fields": ["STEM"],
     "types": ["Проект", "Конкурс"],
@@ -1252,17 +1241,6 @@
     "format": "Очно",
     "price": "Через национальную команду",
     "link": "https://first.global"
-  },
-  {
-    "title": "International Olympiad in Experimental Science (IOES)",
-    "fields": ["STEM"],
-    "types": ["Олимпиада"],
-    "shortDescription": "Международная олимпиада по экспериментальным естественным наукам.",
-    "fullDescription": "Участники выполняют практические задания по физике, химии и биологии, требующие проведения экспериментов и анализа результатов.",
-    "grade": "8–11",
-    "format": "Очно",
-    "price": "Бесплатно",
-    "link": "https://www.ioes.org"
   },
   {
     "title": "European Union Contest for Young Scientists (EUCYS)",
@@ -1320,17 +1298,6 @@
     "link": "https://www.roboticseducation.org"
   },
   {
-    "title": "World Robot Olympiad",
-    "fields": ["STEM"],
-    "types": ["Олимпиада", "Проект"],
-    "shortDescription": "Одна из крупнейших мировых олимпиад по робототехнике.",
-    "fullDescription": "Команды создают автономных роботов и решают инженерные задачи в различных возрастных категориях.",
-    "grade": "5–11",
-    "format": "Смешанный",
-    "price": "Зависит от страны",
-    "link": "https://wro-association.org"
-  },
-  {
     "title": "RoboCupJunior",
     "fields": ["STEM"],
     "types": ["Проект", "Конкурс"],
@@ -1375,17 +1342,6 @@
     "link": "https://lawctopus.com"
   },
   {
-    "title": "John Locke Institute Essay Competition",
-    "fields": ["Социальные науки", "Экономика и финансы"],
-    "types": ["Конкурс", "Исследование"],
-    "shortDescription": "Один из самых престижных международных конкурсов академических эссе.",
-    "fullDescription": "Конкурс проводится по философии, политике, истории, экономике, психологии, праву и другим дисциплинам.",
-    "grade": "8–11",
-    "format": "Онлайн",
-    "price": "Бесплатно",
-    "link": "https://www.johnlockeinstitute.com/essay-competition"
-  },
-  {
     "title": "International Public Policy Forum",
     "fields": ["Социальные науки"],
     "types": ["Конкурс", "Дебаты"],
@@ -1397,17 +1353,6 @@
     "link": "https://ippfdebate.com"
   },
   {
-    "title": "International Economics Olympiad (IEO)",
-    "fields": ["Экономика и финансы"],
-    "types": ["Олимпиада"],
-    "shortDescription": "Главная международная олимпиада по экономике.",
-    "fullDescription": "Включает задания по экономической теории, финансовой грамотности и бизнес-кейсам. Участвуют национальные сборные десятков стран.",
-    "grade": "9–11",
-    "format": "Очно",
-    "price": "Бесплатно",
-    "link": "https://ecolymp.org"
-  },
-  {
     "title": "NASA Space Apps Challenge",
     "fields": ["STEM"],
     "types": ["Хакатон", "Проект"],
@@ -1417,7 +1362,7 @@
     "format": "Смешанный",
     "price": "Бесплатно",
     "link": "https://www.spaceappschallenge.org"
-  }[
+  },
   {
     "title": "Bebras Challenge",
     "fields": ["STEM"],
@@ -1450,17 +1395,6 @@
     "format": "Очно",
     "price": "Платно (через школы)",
     "link": "https://ukmt.org.uk"
-  },
-  {
-    "title": "Math Kangaroo",
-    "fields": ["STEM"],
-    "types": ["Конкурс"],
-    "shortDescription": "Международный математический конкурс для школьников.",
-    "fullDescription": "Популярный конкурс с задачами на логику и нестандартное мышление, проводится более чем в 80 странах.",
-    "grade": "1–11",
-    "format": "Очно",
-    "price": "Платно",
-    "link": "https://www.mathkangaroo.org"
   },
   {
     "title": "Purple Comet! Math Meet",
